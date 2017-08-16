@@ -8,12 +8,15 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
-	<link rel="stylesheet" href="css/.main.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<!-- nav  -->
-	<nav class="navbar-fixed">
-	<div class="nav-wrapper">
+<div class="navbar-fixed">	
+	<nav>
+	   <div class="nav-wrapper">
+	     <div class="row-nav">
+	     <div class="col l12 x12">
 			<img src="img/logmain-1.png">
 			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 			<ul class="right hide-on-med-and-down">
@@ -29,8 +32,11 @@
 				<li><a href="collapsible.html">Javascript</a></li>
 				<li><a href="#"><i class="material-icons">search</i></a></li>
 			</ul>
-	</div>
-	</nav>
+	     </div>
+	   </div>
+	 </div>
+   </nav>
+</div>
 	<!-- section intro-best -->
 	<div class="best">
 		<div class="row center">
@@ -45,10 +51,10 @@
 		</div>
 		<div class="row center">
 			<div class="col l6 m6 s6">
-				<a class="waves-effect waves-light btn">KNOW MORE</a>
+				<a class="waves-effect waves-light btn-large">KNOW MORE</a>
 			</div>	
 			<div class="col l6 m6 s6">
-				<a class="waves-effect waves-light btn">BUY THEME</a>
+				<a class="waves-effect waves-light btn-large">BUY THEME</a>
 			</div>	
 		</div>
 	</div>
@@ -57,34 +63,37 @@
 		<div class="row">
 			<div class="col l12 m12 s12 center">
 				<h3>OUR SERVICE</h3>
-				<hr> 
+				<hr class="verde"> 
 			</div>
-			<div class="col l12 m12 s12 center">
-				<div class="col l3 m12 s12 cliente">
+		</div>
+		<div class="row">
+			<div class="col l12 m12 s12 center fotos">
+				<div class="col l3 m12 s12">
 					<img src="img/imac.png" class="circle responsive-img z-depth-5">
-					<h5>Excellent Qualitye</h5>
-					<h6>Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus.</h6>
+					<h6>Excellent Qualitye</h6>
+					<p>Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus.</p>
 					<a class="waves-effect waves-light btn">Read More</a>
 				</div>
-				<div class="col l3 m12 s12 cliente">
+				<div class="col l3 m12 s12">
 					<img src="img/paper-plane.png" class="circle responsive-img z-depth-5">
-					<h5>Strategic Vision</h5>
-					<h6>Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus.</h6>
+					<h6>Strategic Vision</h6>
+					<p>Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus.</p>
 					<a class="waves-effect waves-light btn">Read More</a>
 				</div>
-				<div class="col l3 m12 s12 cliente">
+				<div class="col l3 m12 s12">
 					<img src="img/radio.png" class="circle responsive-img z-depth-5">
-					<h5>Design Startup</h5>
-					<h6>Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus.</h6>
+					<h6>Design Startup</h6>
+					<p>Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus.</p>
 					<a class="waves-effect waves-light btn">Read More</a>
 				</div>
-				<div class="col l3 m12 s12 cliente">
+				<div class="col l3 m12 s12">
 					<img src="img/compra.png" class="circle responsive-img z-depth-5">
-					<h5>MODER DESING</h5>
-					<h6>Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus.</h6>
+					<h6>MODER DESING</h6>
+					<p>Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus.</p>
 					<a class="waves-effect waves-light btn">Read More</a>
 				</div>
 			</div>
+		  </div>
 		</div>
 	</div>
 	<!-- about -->
@@ -105,16 +114,19 @@
 		</div>
 	</div>
 	<!-- News -->
-	<div class="news">
-		<div class="row">
+	
+    <div class="news">
+       <div class="row">
 			<div class="col l12 m12 s12 center">
 				<h3>Latest News</h3>
 				<hr> 
 				<h6>Sed pellentesque, mauris nec aliquet bibendum</h6>
 			</div>
 		</div>
-    <div class="row">
-			<div class="col l4 s12 m4">
+	
+        <div class="row">
+         <div class="col l12 m12 s12 center">
+			<div class="col l4 s12 m12">
 				<div class="card">
 					<div class="card-image">
 						<img src="img/zapatilla.jpg">
@@ -129,7 +141,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col l4 s12 m4">
+			<div class="col l4 s12 m12">
 				<div class="card">
 					<div class="card-image">
 						<img src="img/porta.jpg">
@@ -144,7 +156,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col l4 s12 m4">
+			<div class="col l4 s12 m12">
 				<div class="card">
 					<div class="card-image">
 						<img src="img/libro.jpg">
@@ -159,9 +171,12 @@
 					</div>
 				</div>
 			</div>
-    </div>
-        <div class="row">
-			<div class="col l4 s12 m4">
+           </div>
+        </div>
+        
+       <div class="row">
+          <div class="col l12 m12 s12 center">
+			<div class="col l4 s12 m12">
 				<div class="card">
 					<div class="card-image">
 						<img src="img/libro2.jpg">
@@ -176,7 +191,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col l4 s12 m4">
+			<div class="col l4 s12 m12">
 				<div class="card">
 					<div class="card-image">
 						<img src="img/libro2.jpg">
@@ -191,7 +206,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col l4 s12 m4">
+			<div class="col l4 s12 m12">
 				<div class="card">
 					<div class="card-image">
 						<img src="img/libro3.jpg">
@@ -206,8 +221,9 @@
 					</div>
 				</div>
 			</div>
-        </div>	
-   </div>	
+          </div>
+        </div>
+  </div>	
 <!-- Amazing -->
 <div class="amazing">
      <div class="row">
@@ -216,7 +232,7 @@
 				<hr>
             </div>
 	 </div>
-   <div class="row">
+     <div class="row">
 	 <div class="col l4 m12 s12">
 	     <div class="col l2 m12 s12">
 			 <i class="material-icons">code</i>
@@ -226,7 +242,7 @@
 	    </div>
 	 <div class="row">
 	  <div class="col l12 m12 s12">	 
-		 <h6>Integer ac massa vehicula, viverra augue et, auctor urna. Morbi nec enim et odio blandit tempor vitae sit amet est. Aenean non fringilla lacus, vitae accumsan risus. Fusce lectus nibh, dapibus in consequat ac, sollicitudin ut eros. Ut tincidunt neque magna, vel faucibus nisl vehicula eget. </h6>
+		 <p>Integer ac massa vehicula, viverra augue et, auctor urna. Morbi nec enim et odio blandit tempor vitae sit amet est. Aenean non fringilla lacus, vitae accumsan risus. Fusce lectus nibh, dapibus in consequat ac, sollicitudin ut eros. Ut tincidunt neque magna, vel faucibus nisl vehicula eget. </p>
 	  </div>
 	 </div>
 	</div>
@@ -239,7 +255,7 @@
 	    </div>
 	 <div class="row">
 	  <div class="col l12 m12 s12">	 
-		 <h6>Integer ac massa vehicula, viverra augue et, auctor urna. Morbi nec enim et odio blandit tempor vitae sit amet est. Aenean non fringilla lacus, vitae accumsan risus. Fusce lectus nibh, dapibus in consequat ac, sollicitudin ut eros. Ut tincidunt neque magna, vel faucibus nisl vehicula eget. </h6>
+		 <p>Integer ac massa vehicula, viverra augue et, auctor urna. Morbi nec enim et odio blandit tempor vitae sit amet est. Aenean non fringilla lacus, vitae accumsan risus. Fusce lectus nibh, dapibus in consequat ac, sollicitudin ut eros. Ut tincidunt neque magna, vel faucibus nisl vehicula eget. </p>
 	  </div>
 	 </div>
 	</div>
@@ -252,7 +268,7 @@
 	    </div>
 	 <div class="row">
 	  <div class="col l12 m12 s12">	 
-		 <h6>Integer ac massa vehicula, viverra augue et, auctor urna. Morbi nec enim et odio blandit tempor vitae sit amet est. Aenean non fringilla lacus, vitae accumsan risus. Fusce lectus nibh, dapibus in consequat ac, sollicitudin ut eros. Ut tincidunt neque magna, vel faucibus nisl vehicula eget. </h6>
+		 <p>Integer ac massa vehicula, viverra augue et, auctor urna. Morbi nec enim et odio blandit tempor vitae sit amet est. Aenean non fringilla lacus, vitae accumsan risus. Fusce lectus nibh, dapibus in consequat ac, sollicitudin ut eros. Ut tincidunt neque magna, vel faucibus nisl vehicula eget. </p>
 	  </div>
 	 </div>
 	</div>
@@ -267,7 +283,20 @@
 	    </div>
 	 <div class="row">
 	  <div class="col l12 m12 s12">	 
-		 <h6>Integer ac massa vehicula, viverra augue et, auctor urna. Morbi nec enim et odio blandit tempor vitae sit amet est. Aenean non fringilla lacus, vitae accumsan risus. Fusce lectus nibh, dapibus in consequat ac, sollicitudin ut eros. Ut tincidunt neque magna, vel faucibus nisl vehicula eget. </h6>
+		 <p>Integer ac massa vehicula, viverra augue et, auctor urna. Morbi nec enim et odio blandit tempor vitae sit amet est. Aenean non fringilla lacus, vitae accumsan risus. Fusce lectus nibh, dapibus in consequat ac, sollicitudin ut eros. Ut tincidunt neque magna, vel faucibus nisl vehicula eget. </p>
+	  </div>
+	 </div>
+	</div>
+	<div class="col l4 m12 s12">
+	     <div class="col l2 m12 s12">
+			 <i class="material-icons">code</i>
+	     </div>
+		 <div class="col l2 m12 s12 center">
+			 <p>Multiple Layouts</p>
+	    </div>
+	 <div class="row">
+	  <div class="col l12 m12 s12">	 
+		 <p>Integer ac massa vehicula, viverra augue et, auctor urna. Morbi nec enim et odio blandit tempor vitae sit amet est. Aenean non fringilla lacus, vitae accumsan risus. Fusce lectus nibh, dapibus in consequat ac, sollicitudin ut eros. Ut tincidunt neque magna, vel faucibus nisl vehicula eget. </p>
 	  </div>
 	 </div>
 	</div>
@@ -280,25 +309,13 @@
 	    </div>
 	 <div class="row">
 	  <div class="col l12 m12 s12">	 
-		 <h6>Integer ac massa vehicula, viverra augue et, auctor urna. Morbi nec enim et odio blandit tempor vitae sit amet est. Aenean non fringilla lacus, vitae accumsan risus. Fusce lectus nibh, dapibus in consequat ac, sollicitudin ut eros. Ut tincidunt neque magna, vel faucibus nisl vehicula eget. </h6>
-	  </div>
-	 </div>
-	</div>
-	<div class="col l4 m12 s12">
-	     <div class="col l2 m12 s12">
-			 <i class="material-icons">code</i>
-	     </div>
-		 <div class="col l2 m12 s12 center">
-			 <h5>Multiple Layouts</h5>
-	    </div>
-	 <div class="row">
-	  <div class="col l12 m12 s12">	 
-		 <h6>Integer ac massa vehicula, viverra augue et, auctor urna. Morbi nec enim et odio blandit tempor vitae sit amet est. Aenean non fringilla lacus, vitae accumsan risus. Fusce lectus nibh, dapibus in consequat ac, sollicitudin ut eros. Ut tincidunt neque magna, vel faucibus nisl vehicula eget. </h6>
+		 <p>Integer ac massa vehicula, viverra augue et, auctor urna. Morbi nec enim et odio blandit tempor vitae sit amet est. Aenean non fringilla lacus, vitae accumsan risus. Fusce lectus nibh, dapibus in consequat ac, sollicitudin ut eros. Ut tincidunt neque magna, vel faucibus nisl vehicula eget. </p>
 	  </div>
 	 </div>
 	</div>
   </div>
 </div>
+
 <!-- Talented people -->
 <div class="talented">
    <div class="row">
@@ -307,6 +324,9 @@
 				<hr>
 				<h6>Sed pellentesque, mauris nec aliquet bibendum</h6>
             </div>
+   </div>
+   <div class="row">
+   <div class="col l12 m12 s12 center">
      <div class="col l3 m12 s12 center">
 	  <div class="card">
      <div class="card-image waves-effect waves-block waves-light">
@@ -314,7 +334,7 @@
      </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-      <p><a href="#">This is a link</a></p>
+      <p>This is a link</p>
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
@@ -325,7 +345,7 @@
     <div class="col l3 m12 s12 center">
 	  <div class="card">
      <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="img/mujer-uno.jpg">
+      <img class="activator" src="img/nombre1.jpg">
      </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
@@ -340,7 +360,7 @@
     <div class="col l3 m12 s12 center">
 	  <div class="card">
      <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="img/mujer-uno.jpg">
+      <img class="activator" src="img/mujer2.jpg">
      </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
@@ -355,7 +375,7 @@
     <div class="col l3 m12 s12 center">
 	  <div class="card">
      <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="img/mujer-uno.jpg">
+      <img class="activator" src="img/nombre2.jpg">
      </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
@@ -367,6 +387,8 @@
      </div>
       </div>
     </div>             
+  </div>
+  </div>
   </div>
 </div>
 <!--  contact -->
@@ -409,16 +431,6 @@
           <input placeholder="Placeholder" id="first_name" type="text" class="validate">
           <label for="first_name">First Name</label>
         </div>
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Last Name</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-          <label for="disabled">Disabled</label>
-        </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
@@ -430,15 +442,6 @@
         <div class="input-field col s12">
           <input id="email" type="email" class="validate">
           <label for="email">Email</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12">
-          This is an inline input field:
-          <div class="input-field inline">
-            <input id="email" type="email" class="validate">
-            <label for="email" data-error="wrong" data-success="right">Email</label>
-          </div>
         </div>
       </div>
     </form>

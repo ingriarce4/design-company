@@ -1,20 +1,68 @@
 *{
-	margin: 5;
+	margin: 0;
 }
+/* nav */
+nav{
+	background-color: #000000;
+	}
+
 /* Section intro */
 .best{
 	background-image: url(../img/intro.jpg);
+	background-size:cover;
+	margin: 0;
+	padding: 120px;
 }
-.navbar-fixed{
-	color: #5e6161;
-	}
+
+ h1 {
+   color: #ffffff;
+}
+
+/* Service */
 
 .service{
 	background-color: #e8f1f1;
 	padding: 50px;
 }
+hr {
+ background-color: #2bbbad;
+  margin-left: 45%;
+  margin-right:45%;
+  padding-bottom:1px;
+}
+.fotos{
+	padding: 40px;
+}
+.btn{
+	margin:20px;
+}
+h6{
+ font-size: 1.5rem;
+}
+p {
+ text-align:justify;
+}
+
+/* about*/
+.about{
+ background-color: #f9f9f9;
+ padding: 80px;
+}
+/* news */
+.news{
+ padding: 30px;
+}
+
+/* talented */
+.talented{
+ background-color: #f9f9f9;
+ padding: 40px;
+}
+
+/* contact */
+
 .contact{
-	background-image: url(../img/intro.jpg);
+	background-image: url(../img/features_bg2-min.jpg);
     padding: 70px; 
 }
 .partners{
